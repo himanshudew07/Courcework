@@ -50,7 +50,7 @@ class CardPrining extends Thread{
             System.out.println("Second page printed");
             t.join();
             System.out.println("Vanue printed");
-            System.out.println("Card printing finished");
+            System.out.println("Card printing finished..");
 
         }
         catch (Exception e){
