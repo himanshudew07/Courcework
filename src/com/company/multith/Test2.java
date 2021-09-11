@@ -1,7 +1,5 @@
 package com.company.multith;
 
-import com.company.Main;
-
 public class Test2 {
 
 

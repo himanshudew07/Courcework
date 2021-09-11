@@ -48,7 +48,7 @@ class CardPrining extends Thread{
         try {
             System.out.println("Front page printed");
             System.out.println("Second page printed");
-            t.join();
+            t.join(10000);
             System.out.println("Vanue printed");
             System.out.println("Card printing finished..");
 
@@ -74,6 +74,7 @@ class CardDistributer extends Thread{
         try {
             System.out.println("Preparing guest name");
             t.join();
+            Thread.yield();
             System.out.println("Wrinting guestname on card");
             System.out.println("Distrubute card");
             System.out.println("Distributed all card ....");
